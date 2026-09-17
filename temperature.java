@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class temperature {
 	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
 		for(;;) {
-			Scanner s = new Scanner(System.in);
 			System.out.print("Enter a temperature in Celsius:");
 			double i = s.nextDouble();
 			System.out.print(i+" C = ");
